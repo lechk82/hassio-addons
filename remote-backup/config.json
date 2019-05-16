@@ -3,7 +3,7 @@
   "version": "0.3.2",
   "slug": "remote_backup",
   "description": "Exploit snapshots and SCP to create remote backups to specified server",
-  "url": "https://github.com/thestigh/hassio-remote-backup",
+  "url": "https://github.com/thestigh/tree/master/hassio-remote-backup",
   "startup": "once",
   "boot": "manual",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
@@ -11,7 +11,6 @@
   "hassio_role": "backup",
   
   "map": ["backup:rw"],
-  "image": "fixated/remote-backup-{arch}",
   "options": {
     "ssh_host": "",
     "ssh_port": 22,
