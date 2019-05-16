@@ -11,6 +11,7 @@
   "hassio_role": "backup",
   
   "map": ["backup:rw"],
+  "image": "fixated/remote-backup-{arch}",
   "options": {
     "ssh_host": "",
     "ssh_port": 22,
